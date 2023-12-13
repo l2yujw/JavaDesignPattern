@@ -1,4 +1,4 @@
-package facade;
+package facade.homeTheater;
 
 public class Screen {
     String description;

@@ -1,9 +1,9 @@
-package facade;
+package facade.homeTheater;
 
-public class TheaterLights {
+public class PopcornPopper {
     String description;
 
-    public TheaterLights(String description) {
+    public PopcornPopper(String description) {
         this.description = description;
     }
 
@@ -15,9 +15,10 @@ public class TheaterLights {
         System.out.println(description + " off");
     }
 
-    public void dim(int level) {
-        System.out.println(description + " dimming to " + level  + "%");
+    public void pop() {
+        System.out.println(description + " popping popcorn!");
     }
+
 
     public String toString() {
         return description;

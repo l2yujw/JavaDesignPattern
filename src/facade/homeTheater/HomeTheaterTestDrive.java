@@ -1,4 +1,4 @@
-package facade;
+package facade.homeTheater;
 
 public class HomeTheaterTestDrive {
     public static void main(String[] args) {
