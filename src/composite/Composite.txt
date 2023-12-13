@@ -1,0 +1,23 @@
+* For Type Safety
+    위에 구현된 방식으로 타입의 안정성을 추구하는 방식이다.
+    이 방식은 자식을 관리하기 위한 add(), remove()와 같은 메서드들이 오직 Composite에만 정의되었다.
+    이로 인해 Client는 Leaf와 Composite를 다르게 취급한다.
+    하지만 Client에서 Leaf 객체가 자식을 다루는 메서드를 호출할 수 없기 때문에, 타입에 대한 안정성을 얻게 된다.
+
+        Ellipse ellipse = new Ellipse();
+        CompositeGraphic graphic = new CompositeGraphic();
+
+* For Uniformity
+    일관성을 추구하는 방식이다.
+    자식을 관리하기 위한 메소드들을 Composite가 아닌 Component에 정의하여 Client는 Leaf와 Composite를 일관되게 취급할 수 있다.
+    하지만 Client에서 Leaf 객체가 자식을 다루는 메서드를 호출할 수 있기 때문에, 타입에 대한 안정성을 잃게 된다.
+
+        Graphic ellipse = new Ellipse();
+        Graphic graphic = new CompositeGraphic();
+
+* 장점
+    복잡한 트리 구조의 클래스들을 편하게 관리할 수 있다.
+    기존의 코드를 수정하지 않고도 구조에 포함되는 새로운 클래스를 추가할 수 있다.
+* 단점
+    기능이 많은 클래스를 Component 인터페이스에 포함될 수 있도록 설계하는 것이 어려울 수 있다.
+    Component 인터페이스가 과도하게 추상화(일반화)되어 있어 다른 클래스를 포함하기 어려울 수도 있다.
