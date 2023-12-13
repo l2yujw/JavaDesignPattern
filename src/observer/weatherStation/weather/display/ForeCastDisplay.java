@@ -1,6 +1,6 @@
-package observer.weather.display;
+package observer.weatherStation.weather.display;
 
-import observer.weather.*;
+import observer.weatherStation.weather.*;
 
 
 public class ForeCastDisplay implements Observer, DisplayElement {

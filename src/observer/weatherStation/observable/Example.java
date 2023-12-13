@@ -1,4 +1,4 @@
-package observer.observable;
+package observer.weatherStation.observable;
 
 public class Example {
 

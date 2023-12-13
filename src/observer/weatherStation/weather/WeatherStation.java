@@ -1,8 +1,8 @@
-package observer.weather;
+package observer.weatherStation.weather;
 
-import observer.weather.display.CurrentConditionsDisplay;
-import observer.weather.display.ForeCastDisplay;
-import observer.weather.display.StatisticsDisplay;
+import observer.weatherStation.weather.display.CurrentConditionsDisplay;
+import observer.weatherStation.weather.display.ForeCastDisplay;
+import observer.weatherStation.weather.display.StatisticsDisplay;
 
 public class WeatherStation {
     public static void main(String[] args) {
