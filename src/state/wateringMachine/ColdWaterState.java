@@ -1,4 +1,4 @@
-package state.WateringMachine;
+package state.wateringMachine;
 
 public class ColdWaterState implements State {
     private final WaterMachine waterMachine;

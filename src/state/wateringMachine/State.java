@@ -1,4 +1,4 @@
-package state.WateringMachine;
+package state.wateringMachine;
 
 public interface State {
     void coldWater();

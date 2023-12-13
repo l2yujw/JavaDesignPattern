@@ -1,4 +1,4 @@
-package state.WateringMachine;
+package state.wateringMachine;
 
 public class ChildrenSafeState implements State{
     private final WaterMachine waterMachine;
