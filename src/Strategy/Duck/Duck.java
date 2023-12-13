@@ -1,7 +1,7 @@
-package Strategy;
+package Strategy.Duck;
 
-import Strategy.Fly.Flyable;
-import Strategy.Quack.Quackable;
+import Strategy.Duck.Fly.Flyable;
+import Strategy.Duck.Quack.Quackable;
 
 public abstract class Duck {
     Flyable flyable;

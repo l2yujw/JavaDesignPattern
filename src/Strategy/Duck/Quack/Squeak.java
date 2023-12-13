@@ -1,4 +1,4 @@
-package Strategy.Quack;
+package Strategy.Duck.Quack;
 
 public class Squeak implements Quackable{
     @Override

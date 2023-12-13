@@ -1,4 +1,4 @@
-package Strategy.Fly;
+package Strategy.Duck.Fly;
 
 public class FlyNoWay implements Flyable{
     @Override

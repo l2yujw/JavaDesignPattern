@@ -1,6 +1,6 @@
-package Strategy;
+package Strategy.Duck;
 
-import Strategy.Fly.FlyNoWay;
+import Strategy.Duck.Fly.FlyNoWay;
 
 public class MiniDuckSimulator {
     public static void main(String[] args) {
